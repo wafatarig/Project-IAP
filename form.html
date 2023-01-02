@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=" stylesheet" href="as.css">
+  
+
+
+
+
+</head>
+
+<body onfocus="">
+    <header>
+        <div id="logo">
+            <h1>
+                تواصل معنا
+            </h1>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">الرئيسية </a>
+                </li>
+                <li>
+                    <a href="vid.html">  اهل القران
+                    </a>
+                </li>
+                <li>
+                    <a href="aud.html"> سور القران </a>
+                </li>
+                <li>
+                    <a href="table.html">تفسير السور </a> </a>
+                </li>
+                <li>
+                    <a href="form.html"> تواصل معنا </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <form name="foname" onsubmit="return val_form();">
+        <div>
+            <label> اسم المستخدم </label>
+            <br>
+            <input type="text" required="required" name="name">
+        </div>
+        <div>
+            <label>البريد الاكتروني </label>
+            <br>
+            <input type="email" required>
+        </div>
+        <div>
+            <label>رقم الهاتف </label>
+            <br>
+            <input type="tel">
+
+
+        </div>
+        <div>
+            <label>
+                النوع
+            </label>
+            <br>
+            <input type="radio" name="gen"> انثى
+
+            <input type="radio" name="gen">  ذكر
+        </div>
+
+
+        <div>
+            <label> الرسالة </label>
+            <br> 
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+
+        <div >
+            <input type="reset" value="مسح ">
+            <input type="submit" value="إرسال " onclick="alert('لقد تم ارسال الرسالة');">
+        </div>
+    </form>
+</body>
+
+</html>
